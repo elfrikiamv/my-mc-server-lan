@@ -1,0 +1,69 @@
+teleportenabled: true
+teleportauto: false
+godmode: true
+muted: false
+jailed: false
+ip-address: 189.217.42.132
+afk: false
+socialspy: true
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1637531488963
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1637619302313
+  login: 1637619206125
+money: '0'
+last-account-name: ElFrikiAmv
+logoutlocation:
+  world: a1b207f9-28ea-465d-b401-eb6b70dd53ce
+  world-name: MundoFriko
+  x: -56.910528371667155
+  y: 70.0
+  z: 917.6035639576833
+  yaw: -138.72215270996094
+  pitch: 7.9706573486328125
+lastlocation:
+  world: 585845fb-f70f-4a4e-af3f-6cf07aca8083
+  world-name: MundoFriko_nether
+  x: 135.30000001192093
+  y: 72.74307401738847
+  z: -14.992149013896379
+  yaw: 55.516815185546875
+  pitch: 28.249813079833984
+mail:
+- legacy: false
+  read: true
+  message: hola
+  sender-name: friko
+  sender-uuid: 8b50d264-b35a-3932-9cdc-22f8981f6687
+  timestamp: 1635981923988
+  expire: 0
+- legacy: false
+  read: true
+  message: picate la cola xd
+  sender-name: ElFrikiAmv
+  sender-uuid: ac7ecbb4-1ae0-36de-b10e-2196d66d20a5
+  timestamp: 1635975593505
+  expire: 0
+- legacy: false
+  read: true
+  message: me la pelas
+  sender-name: ElFrikiAmv
+  sender-uuid: ac7ecbb4-1ae0-36de-b10e-2196d66d20a5
+  timestamp: 1635975563061
+  expire: 0
+homes:
+  home:
+    world: a1b207f9-28ea-465d-b401-eb6b70dd53ce
+    world-name: MundoFriko
+    x: -51.9481749689463
+    y: 74.0
+    z: 917.8568870158696
+    yaw: 269.14990234375
+    pitch: -0.1935300976037979

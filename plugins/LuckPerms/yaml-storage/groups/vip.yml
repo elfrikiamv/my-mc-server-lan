@@ -1,0 +1,23 @@
+name: vip
+permissions:
+- essentials.afk
+- essentials.anvil
+- essentials.enderchest
+- essentials.fly
+- essentials.me
+- essentials.workbench
+- chatmanager.staffchat
+- chatmanager.bypass.afk
+- chatmanager.bypass.dupe.chat
+- chatmanager.bypass.dupe.chat
+- chatmanager.colors
+- chatmanager.color.all
+- chatmanager.format.all
+- chatmanager.sign.color
+- chatmanager.sign.format
+
+parents:
+- default
+prefixes:
+- '[Vip] ':
+    priority: 3

@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 45.65.240.122
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1636846319051
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1636847803257
+  login: 1636847778252
+money: '0'
+last-account-name: iColapso_
+logoutlocation:
+  world: a1b207f9-28ea-465d-b401-eb6b70dd53ce
+  world-name: MundoFriko
+  x: 111.4325246023992
+  y: 65.0
+  z: 1046.7814843658537
+  yaw: 14.647789001464844
+  pitch: 60.14015579223633
+lastlocation:
+  world: a1b207f9-28ea-465d-b401-eb6b70dd53ce
+  world-name: MundoFriko
+  x: -227.0213525094897
+  y: 70.0
+  z: 593.1271969571785
+  yaw: -124.84516906738281
+  pitch: 20.01322364807129
+homes:
+  home:
+    world: a1b207f9-28ea-465d-b401-eb6b70dd53ce
+    world-name: MundoFriko
+    x: 76.4119781007529
+    y: 74.0
+    z: 1012.4090060420182
+    yaw: -81.135498046875
+    pitch: 24.426376342773438

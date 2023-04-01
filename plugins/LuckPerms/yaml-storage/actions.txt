@@ -1,0 +1,55 @@
+{"timestamp":1635980174,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"GROUP","name":"default"},"description":"permission set essentials.spawn true"}
+{"timestamp":1635980630,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"GROUP","name":"default"},"description":"permission set essentials.tp true"}
+{"timestamp":1635980702,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"GROUP","name":"default"},"description":"permission unset essentials.tp"}
+{"timestamp":1635980732,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"GROUP","name":"default"},"description":"permission set essentials.tp true"}
+{"timestamp":1635980739,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"GROUP","name":"default"},"description":"permission unset essentials.tp"}
+{"timestamp":1635980747,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"GROUP","name":"default"},"description":"permission set essentials.tpa true"}
+{"timestamp":1635980759,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"GROUP","name":"default"},"description":"permission set essentials.tpacancel true"}
+{"timestamp":1635980767,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"GROUP","name":"default"},"description":"permission set essentials.tpaccept true"}
+{"timestamp":1635980779,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"GROUP","name":"default"},"description":"permission set essentials.tpahere true"}
+{"timestamp":1635980788,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"GROUP","name":"default"},"description":"permission set essentials.tpdeny true"}
+{"timestamp":1635981091,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"GROUP","name":"default"},"description":"permission set essentials.mail true"}
+{"timestamp":1635981162,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"GROUP","name":"default"},"description":"permission set essentials.sethome true"}
+{"timestamp":1635981225,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"GROUP","name":"default"},"description":"permission set essentials.delhome true"}
+{"timestamp":1635981588,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"GROUP","name":"vip"},"description":"create"}
+{"timestamp":1635981593,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"GROUP","name":"amv"},"description":"create"}
+{"timestamp":1635981599,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"GROUP","name":"mod"},"description":"create"}
+{"timestamp":1635981748,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"GROUP","name":"vip"},"description":"parent add default"}
+{"timestamp":1635981822,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"GROUP","name":"mod"},"description":"parent add vip"}
+{"timestamp":1635981862,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"GROUP","name":"vip"},"description":"permission set essentials.me true"}
+{"timestamp":1635981919,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"GROUP","name":"default"},"description":"permission set essentials.mail.send true"}
+{"timestamp":1635981973,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"GROUP","name":"default"},"description":"permission set essentials.msg true"}
+{"timestamp":1635982144,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"GROUP","name":"vip"},"description":"permission set essentials.workbench true"}
+{"timestamp":1635982204,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"GROUP","name":"mod"},"description":"permission set essentials.time true"}
+{"timestamp":1635982216,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"GROUP","name":"vip"},"description":"permission set essentials.afk true"}
+{"timestamp":1635982252,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"GROUP","name":"default"},"description":"permission set essentials.helpop true"}
+{"timestamp":1635982268,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"GROUP","name":"default"},"description":"permission set essentials.anvil true"}
+{"timestamp":1635982333,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"GROUP","name":"vip"},"description":"permission set essentials.anvil true"}
+{"timestamp":1635982354,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"GROUP","name":"default"},"description":"permission unset essentials.anvil"}
+{"timestamp":1635982370,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"GROUP","name":"vip"},"description":"permission set essentials.feed true"}
+{"timestamp":1635982397,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"GROUP","name":"default"},"description":"permission set essentials.back true"}
+{"timestamp":1635982425,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"GROUP","name":"mod"},"description":"permission set essentials.ban true"}
+{"timestamp":1635982429,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"GROUP","name":"mod"},"description":"permission set essentials.banip true"}
+{"timestamp":1635982543,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"GROUP","name":"mod"},"description":"permission set essentials.broadcast true"}
+{"timestamp":1635982656,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"USER","uniqueId":"4a277598-309e-35d8-96c9-437b3e0332c7","name":"_Amaraa_"},"description":"parent set vip"}
+{"timestamp":1635982669,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"USER","uniqueId":"9cec4a42-b592-30a6-914d-8496722650c3","name":"iColapso_"},"description":"parent set vip"}
+{"timestamp":1635982862,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"GROUP","name":"vip"},"description":"permission set essentials.enderchest true"}
+{"timestamp":1635982889,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"GROUP","name":"default"},"description":"permission set essentials.ping true"}
+{"timestamp":1635982950,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"GROUP","name":"vip"},"description":"permission set essentials.fly true"}
+{"timestamp":1635983025,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"GROUP","name":"mod"},"description":"permission set essentials.kick true"}
+{"timestamp":1635983032,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"GROUP","name":"mod"},"description":"permission set essentials.kickall true"}
+{"timestamp":1635983044,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"GROUP","name":"mod"},"description":"permission set essentials.kill true"}
+{"timestamp":1635983063,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"GROUP","name":"default"},"description":"permission set essentials.list true"}
+{"timestamp":1635983452,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"GROUP","name":"vip"},"description":"meta setprefix 1 Vip"}
+{"timestamp":1635986239,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"GROUP","name":"amv"},"description":"permission set * true"}
+{"timestamp":1635986265,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"USER","uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"description":"parent set amv"}
+{"timestamp":1635986805,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"GROUP","name":"amv"},"description":"permission unset *"}
+{"timestamp":1635986837,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"GROUP","name":"amv"},"description":"permission set * true"}
+{"timestamp":1635986894,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"USER","uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"description":"parent set amv"}
+{"timestamp":1635988800,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"USER","uniqueId":"8b50d264-b35a-3932-9cdc-22f8981f6687","name":"friko"},"description":"parent set amv"}
+{"timestamp":1636058739,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"GROUP","name":"mod"},"description":"meta setprefix 2 Mod"}
+{"timestamp":1636058752,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"GROUP","name":"amv"},"description":"meta setprefix 1 Amv"}
+{"timestamp":1636058801,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"GROUP","name":"default"},"description":"meta setprefix 1 Follower"}
+{"timestamp":1636253772,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"USER","uniqueId":"934327d3-51df-31c6-a244-3167475ccb9d","name":"camilada0"},"description":"parent set vip"}
+{"timestamp":1636322443,"source":{"uniqueId":"8b50d264-b35a-3932-9cdc-22f8981f6687","name":"friko"},"target":{"type":"USER","uniqueId":"8b50d264-b35a-3932-9cdc-22f8981f6687","name":"friko"},"description":"parent set default"}
+{"timestamp":1636326900,"source":{"uniqueId":"ac7ecbb4-1ae0-36de-b10e-2196d66d20a5","name":"ElFrikiAmv"},"target":{"type":"GROUP","name":"amv"},"description":"meta setprefix 1 &f[AMV&f]"}

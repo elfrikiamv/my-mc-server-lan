@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 187.200.112.201
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1636686152665
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1636690645657
+  login: 1636681711445
+money: '0'
+last-account-name: _Amaraa_
+lastlocation:
+  world: a1b207f9-28ea-465d-b401-eb6b70dd53ce
+  world-name: MundoFriko
+  x: -436.72428006134334
+  y: 63.0
+  z: 1229.7828203408246
+  yaw: 60.32415771484375
+  pitch: -5.760885715484619
+logoutlocation:
+  world: a1b207f9-28ea-465d-b401-eb6b70dd53ce
+  world-name: MundoFriko
+  x: -51.887798032409464
+  y: 74.0
+  z: 919.4304364234937
+  yaw: -169.40281677246094
+  pitch: 1.6799511909484863

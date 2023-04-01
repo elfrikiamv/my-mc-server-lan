@@ -1,0 +1,23 @@
+name: default
+permissions:
+- essentials.back
+- essentials.sethome
+- essentials.delhome
+- essentials.home
+- essentials.helpop
+- essentials.mail
+- essentials.mail.send
+- essentials.ping
+- essentials.spawn
+- clicktpa.tpa
+- clicktpa.tpahere
+- clicktpa.tpaccept
+- clicktpa.tpadeny
+- chatmanager.lists.players
+- chatmanager.message
+- chatmanager.message.self
+- chatmanager.reply
+- protectionstones.flags
+prefixes:
+- '[Follower] ':
+    priority: 4

@@ -1,0 +1,55 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 189.217.43.196
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1636324314029
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1636324532103
+  login: 1636322398647
+money: '0'
+last-account-name: friko
+lastlocation:
+  world: a1b207f9-28ea-465d-b401-eb6b70dd53ce
+  world-name: MundoFriko
+  x: -51.99660179556343
+  y: 74.0
+  z: 919.3417304063848
+  yaw: 156.78704833984375
+  pitch: 14.908136367797852
+logoutlocation:
+  world: a1b207f9-28ea-465d-b401-eb6b70dd53ce
+  world-name: MundoFriko
+  x: -51.30966937697545
+  y: 74.0
+  z: 914.9250000119209
+  yaw: 35.386531829833984
+  pitch: -2.3232898712158203
+mail:
+- legacy: false
+  read: true
+  message: picate la cola xd
+  sender-name: ElFrikiAmv
+  sender-uuid: ac7ecbb4-1ae0-36de-b10e-2196d66d20a5
+  timestamp: 1635975593504
+  expire: 0
+homes:
+  home:
+    world: a1b207f9-28ea-465d-b401-eb6b70dd53ce
+    world-name: MundoFriko
+    x: -51.81365203268813
+    y: 74.0
+    z: 917.2012204816499
+    yaw: 270.3086242675781
+    pitch: -0.12900379300117493

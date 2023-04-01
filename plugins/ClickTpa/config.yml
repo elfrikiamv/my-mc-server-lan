@@ -1,0 +1,143 @@
+# Config message for ClickTpa
+# Version v1.5.1
+# Author: jklmao
+
+# # # # # # # # # # # # # # # # # # # # # # # # #
+#                                               #
+#                ClickTpa Config                #
+#                                               #
+# # # # # # # # # # # # # # # # # # # # # # # # # 
+
+#           Be aware of all warnings!           #
+
+# # # # # # # # # # # # # # # # # # # # # # # # #
+#                                               #
+#                 Place Holders                 #
+#                                               #
+# # # # # # # # # # # # # # # # # # # # # # # # # 
+
+# Use '%player%' for the player who sent the request.
+# Use '%accept%' for the 'Click-to-accept' message.
+# Use '%deny%' for the 'Click-to-deny' message.
+# Use '%target%' for the player who they wanted to teleport to, and for the 'Player-sent-request' message.
+# Example: /tpa <player>, where <player> is '%target%'.
+
+Player-only-command: '&c¡Solo los jugadores pueden usar este comando!'
+
+Insufficient-permission: '&c¡No tienes suficientes permisos!'
+
+Player-deny-tpa-message: '&cSe ha cancelado la petición de teletransporte.'
+
+Target-deny-tpa-message: '&cSe ha cancelado la petición de teletransporte.'
+
+Target-teleportion-canceled: '&cTeletransportación cancelada.'
+
+Player-got-accepted-tpa: '&bSe ha aceptado la petición de teletransporte.'
+
+Countdown-until-tpa: '&eTeletransportando en 3 segundos...'
+
+Player-no-pendingtpa-message: '&c¡No tienes ninguna petición pendiente!'
+
+Target-accepted-tpa-request: '&ePetición de teletransporte aceptada.'
+
+No-player-found: '&c¡Ese jugador no existe!'
+
+Target-is-offline: '&c¡Ese jugador no esta conectado!'
+
+Player-teleporting-self: '&c¡No puedes teletransportarte a ti mismo!'
+
+Player-already-requested: '&cYa has enviado una petición de teletransporte, espera...'
+
+Player-teleportation-request-expire: '&cPetición de teletransporte expirada.'
+
+Target-teleportation-request-expire: '&cPetición de teletransporte expirada.'
+
+Player-currently-teleporting: '&bTeletransportando...'
+
+Target-currently-teleporting: '&bTeletransportando...'
+
+Player-TpToggle-Off: '&eTeletransportación &bACTIVADA'
+
+Player-TpToggle-On: '&eTeletransportación &6DESACTIVADA'
+
+Target-Is-TpToggled: '&eEse usuario ha desactivado el poder recibir peticiones de teletransporte.'
+
+Player-Is-TpToggled: '&c¡Tienes tu teletransportación desactivada!'
+
+Tpacancel-message: '&6La petición de tpa ha sido cancelada.'
+
+
+# Seconds until tpa
+# Please use whole numbers
+
+Seconds-until-tpa: 3
+
+
+# Becareful in this part!
+# This is when a player uses not enough args
+# For example, when a player does '/tpa', it will say 'Usage: /tpa <player>'
+# So please fit the correct command under the correct message!
+# P.S '/tpohere' is also '/s' (essentials-type command).
+
+
+Tpa-usage: '&cUsa: /tpa <jugador>'
+
+Tpahere-usage: '&cUsa: /tpahere <jugador>'
+
+Tpaccept-usage: '&cUsa: /tpaccept <jugador>'
+
+Tpdeny-usage: '&cUsa: /tpadeny <jugador>'
+
+Tpo-usage: '&cUsa: /tpo <jugador>'
+
+Tpohere-usage: '&cUsa: /tpohere <jugador> o /s <jugador>' 
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # #
+#                                               #
+#                  Please Read!                 #
+#                                               #
+# # # # # # # # # # # # # # # # # # # # # # # # # 
+
+# This section is when a player gets a tpa request
+# Since the code used is broken into many parts, there will be many messages.
+# Whatever you do to the "Click-to-x" messages, will be the same in the 'Tpa-message'
+# Be careful!
+
+
+# Lets you choose if you want players to be able
+# to move before being teleported
+Allow-player-to-move: false
+
+Player-moved-before-tp: '&6¡La petición fue cancelada debido a que %player% se ha movido!'
+
+Player-sent-request: '&eHas enviado una petición de teletransporte a &6%target%'
+
+Tpa-message: 
+  - ''
+  - '&6%player% &ete ha enviado una petición para'
+  - '&eteletransportarte a ti. Puedes aceptarla o cancelarla.'
+  - '&eEsta petición expira en 120 segundos.'
+  - ''
+
+Tpahere-message: 
+  - ''
+  - '&6%player% &ete ha enviado una petición para'
+  - '&eteletransportarte donde el. Puedes aceptarla o cancelarla.'
+  - '&eEsta petición expira en 120 segundos.'
+  - ''
+
+# This will put additional spaces for the accept/deny messages
+Added-accept-deny-space: true
+
+Click-to-accept: '&a&l&n[ACEPTAR]&r'
+Click-to-deny: '&c&l&n[CANCELAR]&r'
+
+Hover-message-on-accept: '&aClick para aceptar'
+Hover-message-on-deny: '&cClick para cancelar'
+
+
+#~~~~~~~~~~~~~~~~~~#
+# More Coming Soon!#
+#~~~~~~~~~~~~~~~~~~#
+

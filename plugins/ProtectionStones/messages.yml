@@ -1,0 +1,387 @@
+cooldown: '&6Cuidado: &7Por favor, espera %time% antes de ponerla de nuevo!'
+no_such_command: '&cEse comando no existe. Por favor, escribe /ps help para más información'
+no_access: '&cNo puedes hacer eso aquí.'
+no_room_in_inventory: '&cNo tienes suficiente espacio en tu inventario.'
+no_room_dropping_on_floor: '&cNo tienes suficiente espacio en tu inventario. Tirando
+  el item al suelo.'
+invalid_block: '&cBloque de protección inválido.'
+not_enough_money: '&cNo tienes dinero suficiente. El precio es %price%.'
+paid_money: '&bHas pagado $%price%.'
+invalid_world: '&cMundo inválido.'
+must_be_player: '&cDebes ser un jugador para ejecutar ese comando.'
+go_back_page: Retrocede una página.
+go_next_page: Avanza una página.
+help: |-
+  '&8&m=====&r PS ayuda &8&m====='
+  '&b> &7/ps help'
+help_next: '&7Escribe /ps help %page% para ir a la siguiente página!'
+command_requires_player_name: '&cEste comando requiere el nombre de un jugador.'
+no_permission_toggle: '&cNo tienes permiso para usar ese comando.'
+no_permission_create: '&cNo tienes permiso para poner un bloque de protección.'
+no_permission_create_specific: '&cNo tienes permiso para colocar este tipo de bloque
+  de protección.'
+no_permission_destroy: '&cNo tienes permiso para destruir un bloque de protección.'
+no_permission_members: '&cNo tienes permiso para usar comandos de miembro.'
+no_permission_owners: '&cNo tienes permiso para usar comandos de propietario.'
+no_permission_admin: '&c No tienes permiso para usar ese comando.'
+no_permission_count: '&c No tienes permiso para usar ese comando.'
+no_permission_count_others: '&c No tienes permiso para usar ese comando.'
+no_permission_flags: '&c No tienes permiso para usar flags.'
+no_permission_per_flag: '&c No tienes permiso para usar esa flag.'
+no_permission_rent: '&c No tienes permiso para alquilar.'
+no_permission_tax: '&c No tienes permiso para usar el comando de impuestos.'
+no_permission_buysell: '&c No tienes permiso para vender y comprar regiones.'
+no_permission_unhide: '&c No tienes permiso para revelar los bloques de protección.'
+no_permission_hide: '&c No tienes permiso para esconder los bloques de protección.'
+no_permission_info: '&c No tienes permiso para usar el comando de información de laregión.'
+no_permission_priority: '&c No tienes permiso para usar el comando de prioridad.'
+no_permission_region: '&c No tienes permiso para usar comandos de región.'
+no_permission_tp: '&c No tienes permiso para teletransportarte a la zona protegida
+  de otro usuario.'
+no_permission_home: '&c No tienes permiso para teletransportarte a tu zona protegida.'
+no_permission_unclaim: '&c No tienes permiso para usar ese comando.'
+no_permission_view: '&c No tienes permiso para usar ese comando.'
+no_permission_give: '&c No tienes permiso para usar ese comando.'
+no_permission_get: '&c No tienes permiso para usar ese comando.'
+no_permission_sethome: '&c No tienes permiso para usar ese comando.'
+no_permission_list: '&c No tienes permiso para usar ese comando.'
+no_permission_list_others: '&c No tienes permiso para usar ese comando.'
+no_permission_name: '&c No tienes permiso para usar ese comando.'
+no_permission_setparent: '&c No tienes permiso para usar ese comando.'
+no_permission_setparent_others: '&c No tienes permiso para heredar regiones que no
+  te pertenecen.'
+no_permission_merge: '&c No tienes permiso para usar /ps merge.'
+psregion:
+  added_to_region: '&b%player%&7 ha sido añadido a esta región.'
+  added_to_region_specific: '&b%player%&7 ha sido añadido a la región %region%.'
+  removed_from_region: '&b%player%&7 ha sido eliminado de la región.'
+  removed_from_region_specific: '&b%player%&7 ha sido eliminado de la región %region%.'
+  not_in_region: '&cNo estás en una región protegida!'
+  player_not_found: '&cJugador no encontrado.'
+  not_ps_region: '&cEsta región no se puede proteger.'
+  region_does_not_exist: '&cLa región no existe.'
+  no_regions_owned: '&cNo eres dueño de ninguna región en este mundo!'
+  no_region_permission: '&cNo puedes hacer eso en esta región.'
+  protected: '&bEsta área ahora está protegida.'
+  no_longer_protected: '&eEsta área ya no está protegida.'
+  cant_protect_that: '&cNo puedes proteger esa área.'
+  reached_region_limit: '&cNo puedes proteger más regiones. Tu límite es de (%limit%).'
+  reached_per_block_region_limit: '&cNo puedes tener más regiones de este tipo. Tu
+    límite es de (%limit%).'
+  world_denied_create: '&cNo puedes crear protecciones en este mundo.'
+  region_overlap: '&cNo puedes poner un bloque de protección aquí, esta zona ya pertenece
+    a otra región.'
+  region_too_close: '&cTu protección debe estar al menos a %num% bloques del límite
+    de otras regiones!'
+  cant_teleport: '&cTu teletransportación fue bloqueada por una zona protegida!'
+  specify_id_instead_of_alias: |-
+    &7Se encontraron múltiples regiones con este nombre!. Por favor usa un ID en su lugar.
+     Regiones con este nombre: &b%regions%
+  region_not_adjacent: '&cHas Pasado el límite de las regiones no adyacentes! Intenta
+    poner tu bloque de protección más cerca de otras regiones que ya posees.'
+  not_overlapping: '&cEstás regiones no se solapan!'
+  multi_region_does_not_exist: Una de estas regiones no existe!
+  no_region_holes: '&cDetectada área desprotegida dentro de la región. Eso no está
+    permitido!'
+  delete_region_prevented: '&7La región no puede ser eliminada, porque posiblemente
+    dejaría desprotegida una zona en la región actual.'
+  not_owner: '&cNo eres el dueño de esta región!'
+  cannot_merge_rented_region: '&cNo puedes unir las regiones porque %region% está
+    en proceso de alquiler!'
+  no_permission_region_type: '&c No tienes permiso de tener este tipo de región.'
+  hidden: '&7El bloque de protección ahora está oculto.'
+  must_be_placed_in_existing_region: '&cEsto debe colocarse dentro de una región existente
+    !'
+  already_in_location_is_hidden: '&cYa existe una región en esta ubicación (es un
+    bloque de protección oculto?)'
+  cannot_remove_yourself_last_owner: '&cNo puede eliminarse a sí mismo ya que es el
+    último propietario .'
+  cannot_remove_yourself_all_regions: '&cNo puede quitarse a sí mismo de todas sus
+    regiones a la vez, por razones de seguridad. '
+toggle:
+  help: '&b> &7/ps toggle'
+  help_desc: Usa este comando para activar o desactivar los bloques de protección.
+  toggle_on: '&bBloque de protección activado.'
+  toggle_off: '&bBloque de protección desactivado.'
+count:
+  count_help: '&b> &7/ps count [jugador (opcional)]'
+  count_help_desc: Cuenta el número de regiones que tienes tú u otro jugador.
+  personal_region_count: '&7Tus regiones en este mundo son: &b%num%'
+  personal_region_count_merged: '&7- Incluyendo todas las regiones unidas: &b%num%'
+  other_region_count: '&7Las regiones de %player% en este mundo: &b%num%'
+  other_region_count_merged: '&7- Incluyendo todas las regiones unidas: &b%num%'
+flag:
+  help: '&b> &7/ps flag [nombre del flag] [valor / null / default]'
+  help_desc: Usa este comando para establecer flags en tu zona.
+  flag_set: '&7La flag &b%flag% se ha establecido.'
+  flag_not_set: '&7La flag &b%flag% &cno&7 se ha establecido. Revisa tus valores nuevamente.'
+  flag_prevent_exploit: '&cEsto se ha desactivado para prevenir exploits. '
+  flag_prevent_exploit_hover: '&cInhabilitado por razones de seguridad.'
+  gui_header: '&8&m=====&r Flags (click para cambiar) &8&m====='
+  gui_hover_set: '&bClick para establecer.'
+  gui_hover_set_text: |-
+    &bClick para cambiar.&f
+    Valor actual:
+    %value%
+  hover_change_group: Click para que esta flag se aplique solo para %group%.
+  hover_change_group_null: '&cDebes establecer un valor a esta flag antes de cambiar
+    de grupo.'
+rent:
+  help: '&b> &7/ps rent'
+  help_desc: Usa este comando para gestionar tus alquileres (compra y venta).
+  help_header: '&8&m=====&r Ayuda de alquileres &8&m====='
+  already_renting: '&cEsta región ya esta siendo alquilada. Primero debes dejar de
+    alquilarla.'
+  not_rented: '&cEsta región no está siendo alquilada.'
+  lease_success: |-
+    &bTérminos de arrendamiento:
+    &bPrecio: &7%price%
+    &bPeriodo de pago: &7%period%
+  stopped: '&bArrendamiento detenido.'
+  evicted: '&7Inquilino desalojado %tenant%.'
+  not_renting: '&cEsta región no tiene inquilinos.'
+  paid_landlord: '&b%tenant%&7 ha pagado &b$%price%&7 por &b%region%&7.'
+  paid_tenant: '&7Pagado &b$%price%&7 a &b%landlord%&7 por &b%region%&7.'
+  renting_landlord: '&b%player%&7 ha alquilado la región &b%region%&7.'
+  renting_tenant: '&7Ahora estas alquilando &b%region%&7 por &b%price%&7 cada &b%period%&7.'
+  not_tenant: '&cNo eres inquilino en esta región!'
+  tenant_stopped_landlord: '&b%player%&7 Ha dejado de pagar &b%region%&7. Ahora está
+    disponible para que otros la alquilen.'
+  tenant_stopped_tenant: '&bHas dejado de alquilar esta región %region%.'
+  being_sold: '&cEsta región esta en venta! primero escribe /ps sell.'
+  evict_no_money_tenant: '&7Has sido &cdesalojado&7 de &b%region%&7 porque no tienes
+    suficiente dinero para pagar el alquiler de %price%.'
+  evict_no_money_landlord: '&b%tenant%&7 ha sido &cdesalojado&7 de &b%region%&7 porque
+    no era capaz de pagar el alquiler.'
+  cannot_rent_own_region: '&cNo puedes alquilar tu propia región!'
+  reached_limit: '&cHas alcanzado el límite de regiones que puedes alquilar!'
+  price_too_low: '&cEl precio es muy bajo, debe ser mayor a %price%.'
+  price_too_high: '&cEl precio está muy alto, debe ser menor de %price%.'
+  period_too_short: '&cEl periodo de alquiler es muy corto, debe ser mayor a %period%
+    segundos).'
+  period_too_long: '&cEl periodo de alquiler es muy largo, debe ser menor a %period%
+    segundos).'
+  period_invalid: '&cFormato de periodo inválido! Ejemplo: 24h por un día.'
+  cannot_break_while_renting: '&cNo puedes romper una región mientras está alquilada.'
+tax:
+  help: '&b> &7/ps tax'
+  help_desc: Usa este comando para gestionar impuestos.
+  help_header: '&8&m=====&r Ayuda Impuestos&8&m====='
+  disabled_region: '&cLos impuestos están desactivados en esta región.'
+  set_as_autopayer: '&7Los impuestos de la región &b%region%&7 serán automaticamente
+    pagados por ti.'
+  set_no_autopayer: '&7Los impuestos de la región &b%region%&7 ahora tendrán que ser
+    pagados manualmente.'
+  paid: '&7Pagado &b$%amount%&7 en impuestos por la región &b%region%&7.'
+  info_header: '&8&m=====&r Información de Impuestos(click para más información) &8&m====='
+  join_msg_pending_payments: |-
+    &7Debes &b$%money%&7 en pago de impuestos de tu región!.
+    Puedes verlos con /ps tax info.
+  player_region_info: '&7> &b%region%&7 - &3$%money% debido'
+  player_region_info_autopayer: '&7> &b%region%&7 - &3$%money% debido&7 (pagas automáticamente)'
+  click_to_show_more_info: Click para más información.
+  region_info_header: '&8&m=====&r Información de impuestos de %region% &8&m====='
+  region_info: |-
+    &9Tasa de impuesto: &7$%taxrate% (suma de todas las regiones juntas)
+    &9Tiempo entre tasas: &7%taxperiod%
+    &9Tiempo de pago: &7%taxpaymentperiod%
+    &9Tasa de pago automático: &7%taxautopayer%
+    &9Tasas debidas: &7$%taxowed%
+  next_page: '&7Escribe /ps tax info -p %page% para ir a la página!'
+buy:
+  help: '&b> &7/ps buy'
+  help_desc: Compra la región en la que estás actualmente.
+  not_for_sale: '&cEsta región no está a la venta.'
+  stop_sell: '&7Esta región ya no está a la venta.'
+  sold_buyer: '&7Región comprada &b%region%&7 por &b$%price%&7 al jugador &b%player%&7.'
+  sold_seller: '&7Region vendida &b%region%&7 por &b$%price%&7 al jugador &b%player%&7.'
+sell:
+  help: '&b> &7/ps sell [precio / stop]'
+  help_desc: Vende la región en la que estás actualmente.
+  rented_out: '&cLa región esta siendo alquilada! Debes dejar de alquilarla para poder
+    venderla.'
+  for_sale: '&7La región ahora está en venta por &b$%price%&7.'
+visibility:
+  hide_help: '&b> &7/ps hide'
+  hide_help_desc: Usa este comando para esconder o revelar los bloques de protección.
+  unhide_help: '&b> &7/ps unhide'
+  unhide_help_desc: Usa este comando para esconder o revelar los bloques de protección.
+  already_not_hidden: '&7La piedra de protección no parece escondida...'
+  already_hidden: '&7La piedra de protección parece que ya está escondida...'
+info:
+  help: '&b> &7/ps info [members / owners / flags]'
+  help_desc: Usa este comando dentro de una región para obtener más información de
+    ella.
+  header: '&8&m=====&r Información de Piedras de Protección &8&m====='
+  type: '&9Escribe: &7'
+  may_be_merged: (puede ser juntada con otros tipos)
+  merged: '&9Regiones juntas: &7'
+  members: '&9Miembros: &7'
+  no_members: '&c(no miembros)'
+  owners: '&9Propietarios: &7'
+  no_owners: '&c(no propietarios)'
+  flags: '&9Flags: &7'
+  region: '&9Región: &b'
+  priority: '&9Prioridad: &b'
+  parent: '&9Pariente: &b'
+  bounds: '&9Límites: &b'
+  seller: '&9Vendedor: &7'
+  price: '&9Precio: &7'
+  tenant: '&9Inquilino: &7'
+  landlord: '&9Dueño: &7'
+  rent: '&9Alquiler: &7'
+  available_for_sale: '&bRegión disponible para venta!'
+  available_for_rent: '&bRegión disponible para alquilar!'
+  type2: '&9Type: &7%type%'
+  merged2: '&9Merged regions: &7%merged%'
+  members2: '&9Members: &7%members%'
+  owners2: '&9Owners: &7%owners%'
+  flags2: '&9Flags: &7%flags%'
+  no_flags: (none)
+  region2: '&9Region: &b%region%'
+  priority2: '&9Priority: &b%priority%'
+  parent2: '&9Parent: &b%parentregion%'
+  bounds2: '&9Bounds: &b%bounds%'
+  seller2: '&9Seller: &7%seller%'
+  price2: '&9Price: &7%price%'
+  tenant2: '&9Tenant: &7%tenant%'
+  landlord2: '&9Landlord: &7%landlord%'
+  rent2: '&9Rent: &7%rent%'
+  bounds_xyz: '&9Bounds: &b(%minx%,%miny%,%minz%) -> (%maxx%,%maxy%,%maxz%)'
+  bounds_xz: '&9Bounds: &b(%minx%, %minz%) -> (%maxx%, %maxz%)'
+priority:
+  help: '&b> &7/ps priority [número|null]'
+  help_desc: Usa este comando para establecer la prioridad de tu región.
+  info: '&7Prioridad: %priority%'
+  set: '&ePrioridad ha sido establecida.'
+  error: '&cError al analizar la entrada, verifícalo de nuevo'
+region:
+  help: '&b> &7/ps region [list|remove|disown] [jugador]'
+  help_desc: Usa este comando para ver más información o editar las regiones protegidas
+    por otros jugadores (o las tuyas).
+  not_found_for_player: '&7No se encontraron regiones de %player% en este mundo.'
+  list: 'Las regiones de &7%player% en este mundo: &b%regions%'
+  remove: Las regiones de &e%player%s han sido eliminadas de este mundo, y eliminadas
+    las regiones que &e%player% poseía parcialmente.
+  error_search: '&cError al buscar las regiones de %player%. Por favor, asegúrate
+    de haber ingresado el nombre correctamente.'
+tp:
+  help: '&b> &7/ps tp [id / jugador] [número (opcional)]'
+  help_desc: Te teletransporta a una de las regiones del jugador.
+  number_above_zero: '&cPor favor, ingresa un número por encima de 0.'
+  valid_number: '&cPor favor, ingresa un número válido.'
+  only_has_regions: '&c%player% sólo tiene %num% regiones protegidas en este mundo!'
+  tping: '&aTeletransportando...'
+  error_name: '&cError al teletransportarse!'
+  error_tp: '&cError al encontrar la región para teletransportarse!'
+  in_seconds: '&7Teletransportándose en &b%seconds%&7 segundos.'
+  cancelled_moved: '&cTeletransportación cancelada. Te has movido!'
+home:
+  help: '&b> &7/ps home [nombre / id]'
+  help_desc: Te teletransporta a una de tus regiones.
+  header: '&8&m=====&r Homes (click para teletransportarse) &8&m====='
+  click_to_tp: Click para teletransportarse!
+  next_page: '&7Escribe /ps home -p %page% para ir a la siguiente página!'
+unclaim:
+  help: '&b> &7/ps unclaim'
+  help_desc: Usa este comando para eliminar una región protegida y recoger la piedra
+    de protección.
+view:
+  help: '&b> &7/ps view'
+  help_desc: Usa este comando para ver los bordes de la zona protegida.
+  cooldown: '&cPor favor, espera un momento antes de utilizar /ps view de nuevo.'
+  generating: '&7Generando borde...'
+  generate_done: '&aHecho! El borde desaparecerá después de 30 segundos!'
+  removing: |-
+    &bEliminando borde...
+    &aSi aún ves los bloques, sal y vuelve a entrar!
+admin:
+  help: '&b> &7/ps admin'
+  help_desc: Escribe /ps admin help para más información.
+  cleanup_header: |-
+    &eLimpieza %arg% %days% días
+    ================
+  cleanup_footer: |-
+    &e================
+    Limpieza %arg% completada!.
+  hide_toggled: '&eTodas las piedras de protección se han %message% en este mundo.'
+  last_logon: '&eLa última vez que %player% jugó, fue hace %days% días.'
+  is_banned: '&e%player% está baneado.'
+  error_parsing: '&cError al analizar los días, ¿estás seguro que es un número?'
+  console_world: '&cPor favor, especifica el mundo como último parámetro.'
+  lastlogons_header: |-
+    &e%days% Días:
+    ================
+  lastlogons_line: '&e%player% %time% days'
+  lastlogons_footer: |-
+    &e================
+    %count% Total de jugadores mostrados
+    %checked% Total de jugadores revisados
+reload:
+  help: '&b> &7/ps reload'
+  help_desc: Vuelve a cargar la configuración del plugin.
+  start: '&bActualizando configuración...'
+  complete: '&bActualización completada!'
+addremove:
+  help: '&b> &7/ps add|remove [jugador]'
+  help_desc: Usa este comando para agregar o eliminar un miembro de tu región.
+  owner_help: '&b> &7/ps addowner|removeowner [jugador]'
+  owner_help_desc: Usa este comando para agregar o eliminar un propietario de tu región.
+  player_reached_limit: '&cEste jugador ha alcanzado el límite de su región.'
+  player_needs_to_be_online: '&cEl jugador debe estar en línea para agregarlos.'
+get:
+  help: '&b> &7/ps get [bloque]'
+  help_desc: Usa ese comando para obtener una piedra de protección.
+  gotten: '&bPiedra de protección añadida a tu inventario!'
+  no_permission_block: '&cNo tienes permiso para obtener este bloque.'
+  header: '&8&m=====&r Bloques de protección (click para conseguir uno) &8&m====='
+  gui_block: '&7> &b%alias% &7- %description% (&f$%price%&7)'
+  gui_hover: Click para comprar un %alias%!
+give:
+  help: '&b> &7/ps give [bloque] [jugador]'
+  help_desc: Usa este comando para darle a un jugador un bloque de protección
+  given: '&7Gave &b%block%&7 to &b%player%&7.'
+  no_inventory_room: '&cEl jugador no tiene suficiente espacio en su inventario.'
+sethome:
+  help: '&b> &7/ps sethome'
+  help_desc: Usa este comando para establecer como hogar la región en la que te encuentras
+    ahora.
+  set: '&7El punto de spwan de tu zona protegida &b%psid%&7 ha sido establecido en
+    tu ubicación.'
+list:
+  help: '&b> &7/ps list [jugador (opcional)]'
+  help_desc: Usa este comando para ver todas las regiones que tú u otros jugadores
+    poseéis.
+  header: '&8&m=====&r Regiones de %player% &8&m====='
+  owner: '&7Propietario de:'
+  member: '&7Miembro de:'
+  no_regions: '&7You currently do not own and are not a member of any regions.'
+  no_regions_player: '&b%player% &7does not own and is not a member of any regions.'
+name:
+  help: '&b> &7/ps name [nombre / none]'
+  help_desc: Usa este comando para darle un apodo a tu región y así identificarla
+    más fácilmente.
+  removed: '&7Se ha eliminado el apodo de tu zona protegida %id%.'
+  set_name: '&7Se estableció el apodo &b%name%&7 a tu zona protegida %id%.'
+  taken: '&7El apodo &b%name%&7 ya ha sido utilizado en otra región! Intenta con otro.'
+setparent:
+  help: '&b> &7/ps setparent [región / none]'
+  help_desc: Usa este comando para heredar las propiedades de otra región (propietarios,
+    miembros, flags, etc.).
+  success: '&7Se ha establecido correctamente el pariente de &b%parent%&7 en tu zona
+    protegida &b%id%&7.'
+  success_remove: '&7Se eliminó correctamente el pariente de tu zona protegida &b%id%&7.'
+  circular_inheritance: '&cSe detectó una herencia circular (¿El pariente ya hereda
+    esta región?). Pariente no establecido.'
+merge:
+  help: '&b> &7/ps merge'
+  help_desc: Usa este comando para juntar tu región con otras regiones sobrepuestas.
+  disabled: Juntar regiones está desactivado desde la configuración!
+  merged: '&bRegiones juntadas satisfactoriamente!'
+  header: '&8&m=====&r Juntar %region% (click para juntar) &8&m====='
+  warning: '&7Nota:Esto eliminará la configuración actual de esta región!'
+  not_allowed: '&cNo tienes permitido juntar este tipo de regiones.'
+  into: '&bEsta región esta sobrepuesta con otras regiones que puedes juntar!'
+  no_region: '&7No hay regiones sobrepuestas para juntar.'
+  click_to_merge: Click para juntar con %region%!
+  auto_merged: '&7Región juntada automáticamente con &b%region%&7.'

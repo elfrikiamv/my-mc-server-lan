@@ -1,0 +1,162 @@
+06.11.2021 - 07:42:44 - [TAB v2.9.2] Group "amv" is not defined in sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "amv" into &egroup-sorting-priority-list in config.yml. Your current list: [owner, admin, mod, helper, builder, premium, player, default]
+06.11.2021 - 07:52:57 - [TAB v2.9.2] Group "amv" is not defined in sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "amv" into &egroup-sorting-priority-list in config.yml. Your current list: [owner, admin, mod, helper, builder, premium, player, default]
+06.11.2021 - 08:27:36 - [TAB v2.9.2] Group "amv" is not defined in sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "amv" into &egroup-sorting-priority-list in config.yml. Your current list: [owner, admin, mod, helper, builder, premium, player, default]
+06.11.2021 - 08:33:55 - [TAB v2.9.2] Group "amv" is not defined in sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "amv" into &egroup-sorting-priority-list in config.yml. Your current list: [owner, admin, mod, helper, builder, premium, player, default]
+07.11.2021 - 20:27:37 - [TAB v2.9.2] Group "amv" is not defined in sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "amv" into &egroup-sorting-priority-list in config.yml. Your current list: [owner, admin, mod, helper, builder, premium, player, default]
+07.11.2021 - 20:32:39 - [TAB v2.9.2] Group "amv" is not defined in sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "amv" into &egroup-sorting-priority-list in config.yml. Your current list: [owner, admin, mod, helper, builder, premium, player, default]
+07.11.2021 - 20:36:30 - [TAB v2.9.2] Failed to enable. Did you just invent a new way to break the plugin by misconfiguring it?
+07.11.2021 - 20:36:30 - java.lang.NullPointerException: null
+07.11.2021 - 20:36:30 -        at me.clip.placeholderapi.expansion.PlaceholderExpansion.register(PlaceholderExpansion.java:138)
+07.11.2021 - 20:36:30 -        at me.neznamy.tab.platforms.bukkit.features.TabExpansion.<init>(TabExpansion.java:30)
+07.11.2021 - 20:36:30 -        at me.neznamy.tab.platforms.bukkit.BukkitPlatform.loadFeatures(BukkitPlatform.java:107)
+07.11.2021 - 20:36:30 -        at me.neznamy.tab.shared.TAB.load(TAB.java:157)
+07.11.2021 - 20:36:30 -        at me.neznamy.tab.platforms.bukkit.Main.onEnable(Main.java:44)
+07.11.2021 - 20:36:30 -        at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263)
+07.11.2021 - 20:36:30 -        at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:351)
+07.11.2021 - 20:36:30 -        at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480)
+07.11.2021 - 20:36:30 -        at com.rylinaux.plugman.util.PluginUtil.enable(PluginUtil.java:62)
+07.11.2021 - 20:36:30 -        at com.rylinaux.plugman.util.PluginUtil.enableAll(PluginUtil.java:72)
+07.11.2021 - 20:36:30 -        at com.rylinaux.plugman.command.EnableCommand.execute(EnableCommand.java:101)
+07.11.2021 - 20:36:30 -        at com.rylinaux.plugman.PlugManCommandHandler.onCommand(PlugManCommandHandler.java:95)
+07.11.2021 - 20:36:30 -        at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+07.11.2021 - 20:36:30 -        at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:149)
+07.11.2021 - 20:36:30 -        at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchCommand(CraftServer.java:763)
+07.11.2021 - 20:36:30 -        at net.minecraft.server.v1_16_R3.PlayerConnection.handleCommand(PlayerConnection.java:1788)
+07.11.2021 - 20:36:30 -        at net.minecraft.server.v1_16_R3.PlayerConnection.c(PlayerConnection.java:1631)
+07.11.2021 - 20:36:30 -        at net.minecraft.server.v1_16_R3.PlayerConnection.a(PlayerConnection.java:1584)
+07.11.2021 - 20:36:30 -        at net.minecraft.server.v1_16_R3.PacketPlayInChat.a(PacketPlayInChat.java:47)
+07.11.2021 - 20:36:30 -        at net.minecraft.server.v1_16_R3.PacketPlayInChat.a(PacketPlayInChat.java:1)
+07.11.2021 - 20:36:30 -        at net.minecraft.server.v1_16_R3.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:19)
+07.11.2021 - 20:36:30 -        at net.minecraft.server.v1_16_R3.TickTask.run(SourceFile:18)
+07.11.2021 - 20:36:30 -        at net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeTask(SourceFile:144)
+07.11.2021 - 20:36:30 -        at net.minecraft.server.v1_16_R3.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23)
+07.11.2021 - 20:36:30 -        at net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeNext(SourceFile:118)
+07.11.2021 - 20:36:30 -        at net.minecraft.server.v1_16_R3.MinecraftServer.bb(MinecraftServer.java:942)
+07.11.2021 - 20:36:30 -        at net.minecraft.server.v1_16_R3.MinecraftServer.executeNext(MinecraftServer.java:935)
+07.11.2021 - 20:36:30 -        at net.minecraft.server.v1_16_R3.IAsyncTaskHandler.awaitTasks(SourceFile:127)
+07.11.2021 - 20:36:30 -        at net.minecraft.server.v1_16_R3.MinecraftServer.sleepForTick(MinecraftServer.java:919)
+07.11.2021 - 20:36:30 -        at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:851)
+07.11.2021 - 20:36:30 -        at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$0(MinecraftServer.java:164)
+07.11.2021 - 20:36:30 -        at java.lang.Thread.run(Thread.java:748)
+07.11.2021 - 20:38:39 - [TAB v2.9.2] Group "amv" is not defined in sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "amv" into &egroup-sorting-priority-list in config.yml. Your current list: [owner, admin, mod, helper, builder, premium, player, default]
+07.11.2021 - 21:46:49 - [TAB v2.9.2] Group "amv" is not defined in sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "amv" into &egroup-sorting-priority-list in config.yml. Your current list: [owner, admin, mod, helper, builder, premium, player, default]
+07.11.2021 - 21:57:55 - [TAB v2.9.2] Group "amv" is not defined in sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "amv" into &egroup-sorting-priority-list in config.yml. Your current list: [owner, admin, mod, helper, builder, premium, player, default]
+07.11.2021 - 23:30:03 - [TAB v2.9.2] LuckPerms v5.3.74 threw an exception when retrieving API instance: The LuckPerms API isn't loaded yet!
+This could be because:
+  a) the LuckPerms plugin is not installed or it failed to enable
+  b) the plugin in the stacktrace does not declare a dependency on LuckPerms
+  c) the plugin in the stacktrace is retrieving the API before the plugin 'enable' phase
+     (call the #get method in onEnable, not the constructor!)
+
+07.11.2021 - 23:30:03 - [TAB v2.9.2] Just a side note: LuckPerms is installed, otherwise server would not say it is. LuckPerms is declared as softdependecy and all code runs at onEnable or later, constructor is unused.
+07.11.2021 - 23:30:03 - [TAB v2.9.2] Group "NONE" is not defined in sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "NONE" into &egroup-sorting-priority-list in config.yml. Your current list: [amv, admin, mod, vip, default]
+07.11.2021 - 23:30:03 - [TAB v2.9.2] An error occurred when refreshing placeholders
+07.11.2021 - 23:30:03 - java.lang.IllegalStateException: zip file closed
+07.11.2021 - 23:30:03 -        at java.util.zip.ZipFile.ensureOpen(ZipFile.java:686)
+07.11.2021 - 23:30:03 -        at java.util.zip.ZipFile.getEntry(ZipFile.java:315)
+07.11.2021 - 23:30:03 -        at java.util.jar.JarFile.getEntry(JarFile.java:240)
+07.11.2021 - 23:30:03 -        at java.util.jar.JarFile.getJarEntry(JarFile.java:223)
+07.11.2021 - 23:30:03 -        at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:129)
+07.11.2021 - 23:30:03 -        at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:96)
+07.11.2021 - 23:30:03 -        at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+07.11.2021 - 23:30:03 -        at java.lang.ClassLoader.loadClass(ClassLoader.java:405)
+07.11.2021 - 23:30:03 -        at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+07.11.2021 - 23:30:03 -        at me.lucko.luckperms.bukkit.vault.LuckPermsVaultPermission.lookupUser(LuckPermsVaultPermission.java:141)
+07.11.2021 - 23:30:03 -        at me.lucko.luckperms.bukkit.vault.LuckPermsVaultChat.getUserChatPrefix(LuckPermsVaultChat.java:97)
+07.11.2021 - 23:30:03 -        at me.lucko.luckperms.bukkit.vault.AbstractVaultChat.getPlayerPrefix(AbstractVaultChat.java:167)
+07.11.2021 - 23:30:03 -        at me.neznamy.tab.platforms.bukkit.BukkitPlaceholderRegistry$9.get(BukkitPlaceholderRegistry.java:200)
+07.11.2021 - 23:30:03 -        at me.neznamy.tab.shared.placeholders.PlayerPlaceholder.update(PlayerPlaceholder.java:36)
+07.11.2021 - 23:30:03 -        at me.neznamy.tab.shared.features.PlaceholderManager.updatePlayerPlaceholder(PlaceholderManager.java:116)
+07.11.2021 - 23:30:03 -        at me.neznamy.tab.shared.features.PlaceholderManager.lambda$new$0(PlaceholderManager.java:81)
+07.11.2021 - 23:30:03 -        at me.neznamy.tab.shared.cpu.CPUManager.lambda$startRepeatingMeasuredTask$2(CPUManager.java:146)
+07.11.2021 - 23:30:03 -        at me.neznamy.tab.shared.cpu.CPUManager.lambda$submit$4(CPUManager.java:180)
+07.11.2021 - 23:30:03 -        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+07.11.2021 - 23:30:03 -        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+07.11.2021 - 23:30:03 -        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+07.11.2021 - 23:30:03 -        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+07.11.2021 - 23:30:03 -        at java.lang.Thread.run(Thread.java:748)
+07.11.2021 - 23:30:04 - [TAB v2.9.2] LuckPerms v5.3.74 threw an exception when retrieving API instance: The LuckPerms API isn't loaded yet!
+This could be because:
+  a) the LuckPerms plugin is not installed or it failed to enable
+  b) the plugin in the stacktrace does not declare a dependency on LuckPerms
+  c) the plugin in the stacktrace is retrieving the API before the plugin 'enable' phase
+     (call the #get method in onEnable, not the constructor!)
+
+07.11.2021 - 23:30:04 - [TAB v2.9.2] Just a side note: LuckPerms is installed, otherwise server would not say it is. LuckPerms is declared as softdependecy and all code runs at onEnable or later, constructor is unused.
+07.11.2021 - 23:30:05 - [TAB v2.9.2] LuckPerms v5.3.74 threw an exception when retrieving API instance: The LuckPerms API isn't loaded yet!
+This could be because:
+  a) the LuckPerms plugin is not installed or it failed to enable
+  b) the plugin in the stacktrace does not declare a dependency on LuckPerms
+  c) the plugin in the stacktrace is retrieving the API before the plugin 'enable' phase
+     (call the #get method in onEnable, not the constructor!)
+
+07.11.2021 - 23:30:05 - [TAB v2.9.2] Just a side note: LuckPerms is installed, otherwise server would not say it is. LuckPerms is declared as softdependecy and all code runs at onEnable or later, constructor is unused.
+07.11.2021 - 23:30:06 - [TAB v2.9.2] LuckPerms v5.3.74 threw an exception when retrieving API instance: The LuckPerms API isn't loaded yet!
+This could be because:
+  a) the LuckPerms plugin is not installed or it failed to enable
+  b) the plugin in the stacktrace does not declare a dependency on LuckPerms
+  c) the plugin in the stacktrace is retrieving the API before the plugin 'enable' phase
+     (call the #get method in onEnable, not the constructor!)
+
+07.11.2021 - 23:30:06 - [TAB v2.9.2] Just a side note: LuckPerms is installed, otherwise server would not say it is. LuckPerms is declared as softdependecy and all code runs at onEnable or later, constructor is unused.
+07.11.2021 - 23:30:07 - [TAB v2.9.2] LuckPerms v5.3.74 threw an exception when retrieving API instance: The LuckPerms API isn't loaded yet!
+This could be because:
+  a) the LuckPerms plugin is not installed or it failed to enable
+  b) the plugin in the stacktrace does not declare a dependency on LuckPerms
+  c) the plugin in the stacktrace is retrieving the API before the plugin 'enable' phase
+     (call the #get method in onEnable, not the constructor!)
+
+07.11.2021 - 23:30:07 - [TAB v2.9.2] Just a side note: LuckPerms is installed, otherwise server would not say it is. LuckPerms is declared as softdependecy and all code runs at onEnable or later, constructor is unused.
+07.11.2021 - 23:30:08 - [TAB v2.9.2] LuckPerms v5.3.74 threw an exception when retrieving API instance: The LuckPerms API isn't loaded yet!
+This could be because:
+  a) the LuckPerms plugin is not installed or it failed to enable
+  b) the plugin in the stacktrace does not declare a dependency on LuckPerms
+  c) the plugin in the stacktrace is retrieving the API before the plugin 'enable' phase
+     (call the #get method in onEnable, not the constructor!)
+
+07.11.2021 - 23:30:08 - [TAB v2.9.2] Just a side note: LuckPerms is installed, otherwise server would not say it is. LuckPerms is declared as softdependecy and all code runs at onEnable or later, constructor is unused.
+07.11.2021 - 23:30:09 - [TAB v2.9.2] LuckPerms v5.3.74 threw an exception when retrieving API instance: The LuckPerms API isn't loaded yet!
+This could be because:
+  a) the LuckPerms plugin is not installed or it failed to enable
+  b) the plugin in the stacktrace does not declare a dependency on LuckPerms
+  c) the plugin in the stacktrace is retrieving the API before the plugin 'enable' phase
+     (call the #get method in onEnable, not the constructor!)
+
+07.11.2021 - 23:30:09 - [TAB v2.9.2] Just a side note: LuckPerms is installed, otherwise server would not say it is. LuckPerms is declared as softdependecy and all code runs at onEnable or later, constructor is unused.
+07.11.2021 - 23:30:10 - [TAB v2.9.2] LuckPerms v5.3.74 threw an exception when retrieving API instance: The LuckPerms API isn't loaded yet!
+This could be because:
+  a) the LuckPerms plugin is not installed or it failed to enable
+  b) the plugin in the stacktrace does not declare a dependency on LuckPerms
+  c) the plugin in the stacktrace is retrieving the API before the plugin 'enable' phase
+     (call the #get method in onEnable, not the constructor!)
+
+07.11.2021 - 23:30:10 - [TAB v2.9.2] Just a side note: LuckPerms is installed, otherwise server would not say it is. LuckPerms is declared as softdependecy and all code runs at onEnable or later, constructor is unused.
+07.11.2021 - 23:30:11 - [TAB v2.9.2] LuckPerms v5.3.74 threw an exception when retrieving API instance: The LuckPerms API isn't loaded yet!
+This could be because:
+  a) the LuckPerms plugin is not installed or it failed to enable
+  b) the plugin in the stacktrace does not declare a dependency on LuckPerms
+  c) the plugin in the stacktrace is retrieving the API before the plugin 'enable' phase
+     (call the #get method in onEnable, not the constructor!)
+
+07.11.2021 - 23:30:11 - [TAB v2.9.2] Just a side note: LuckPerms is installed, otherwise server would not say it is. LuckPerms is declared as softdependecy and all code runs at onEnable or later, constructor is unused.
+07.11.2021 - 23:30:12 - [TAB v2.9.2] LuckPerms v5.3.74 threw an exception when retrieving API instance: The LuckPerms API isn't loaded yet!
+This could be because:
+  a) the LuckPerms plugin is not installed or it failed to enable
+  b) the plugin in the stacktrace does not declare a dependency on LuckPerms
+  c) the plugin in the stacktrace is retrieving the API before the plugin 'enable' phase
+     (call the #get method in onEnable, not the constructor!)
+
+07.11.2021 - 23:30:12 - [TAB v2.9.2] Just a side note: LuckPerms is installed, otherwise server would not say it is. LuckPerms is declared as softdependecy and all code runs at onEnable or later, constructor is unused.
+07.11.2021 - 23:30:13 - [TAB v2.9.2] LuckPerms v5.3.74 threw an exception when retrieving API instance: The LuckPerms API isn't loaded yet!
+This could be because:
+  a) the LuckPerms plugin is not installed or it failed to enable
+  b) the plugin in the stacktrace does not declare a dependency on LuckPerms
+  c) the plugin in the stacktrace is retrieving the API before the plugin 'enable' phase
+     (call the #get method in onEnable, not the constructor!)
+
+07.11.2021 - 23:30:13 - [TAB v2.9.2] Just a side note: LuckPerms is installed, otherwise server would not say it is. LuckPerms is declared as softdependecy and all code runs at onEnable or later, constructor is unused.
+13.11.2021 - 22:57:50 - [TAB v2.9.2] Group "amv" is not defined in sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "amv" into &egroup-sorting-priority-list in config.yml. Your current list: [owner, admin, mod, helper, builder, premium, player, default]
+13.11.2021 - 23:16:10 - [TAB v2.9.2] Group "amv" is not defined in sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "amv" into &egroup-sorting-priority-list in config.yml. Your current list: [owner, admin, mod, helper, builder, premium, player, default]
+13.11.2021 - 23:17:08 - [TAB v2.9.2] Group "vip" is not defined in sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "vip" into &egroup-sorting-priority-list in config.yml. Your current list: [owner, admin, mod, helper, builder, premium, player, default]
+13.11.2021 - 23:22:39 - [TAB v2.9.2] Group "amv" is not defined in sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "amv" into &egroup-sorting-priority-list in config.yml. Your current list: [owner, admin, mod, helper, builder, premium, player, default]
+13.11.2021 - 23:23:03 - [TAB v2.9.2] Group "vip" is not defined in sorting list! This will result in players in that group not being sorted correctly. To fix this, add group "vip" into &egroup-sorting-priority-list in config.yml. Your current list: [owner, admin, mod, helper, builder, premium, player, default]

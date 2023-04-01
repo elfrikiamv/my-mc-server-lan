@@ -1,0 +1,15 @@
+name: mod
+permissions:
+- essentials.ban
+- essentials.banip
+- essentials.kick
+- essentials.kickall
+- essentials.kill
+- essentials.time
+- chatmanager.*
+- protectionstones.*
+parents:
+- vip
+prefixes:
+- '[Mod] ':
+    priority: 2

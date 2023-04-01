@@ -1,0 +1,140 @@
+MyAnimation1:
+  change-interval: 100
+  texts:
+  - '&f&k-&r&5--------------'
+  - '&5-&f&k-&r&5-------------'
+  - '&5--&f&k-&r&5------------'
+  - '&5---&f&k-&r&5-----------'
+  - '&5----&f&k-&r&5----------'
+  - '&5-----&f&k-&r&5---------'
+  - '&5------&f&k-&r&5--------'
+  - '&5-------&f&k-&r&5-------'
+  - '&5--------&f&k-&r&5------'
+  - '&5---------&f&k-&r&5-----'
+  - '&5----------&f&k-&r&5----'
+  - '&5-----------&f&k-&r&5---'
+  - '&5------------&f&k-&r&5--'
+  - '&5-------------&f&k-&r&5-'
+  - '&5--------------&f&k-&r'
+  - '&5-------------&f&k-&r&5-'
+  - '&5------------&f&k-&r&5--'
+  - '&5-----------&f&k-&r&5---'
+  - '&5----------&f&k-&r&5----'
+  - '&5---------&f&k-&r&5-----'
+  - '&5--------&f&k-&r&5------'
+  - '&5-------&f&k-&r&5-------'
+  - '&5------&f&k-&r&5--------'
+  - '&5-----&f&k-&r&5---------'
+  - '&5----&f&k-&r&5----------'
+  - '&5---&f&k-&r&5-----------'
+  - '&5--&f&k-&r&5------------'
+  - '&5-&f&k-&r&5-------------'
+  - '&f&k-&r&5--------------'
+ServerName:
+  change-interval: 300
+  texts:
+  - '&c&lServerName'
+  - '&c&n&lServerName'
+  - '&b&lServerName'
+  - '&b&l&nServerName'
+  - '&e&lServerName'
+  - '&e&n&lServerName'
+web:
+  change-interval: 200
+  texts:
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&6w&eww.domain.com'
+  - '&ew&6w&ew.domain.com'
+  - '&eww&6w&e.domain.com'
+  - '&ewww&6.&edomain.com'
+  - '&ewww.&6d&eomain.com'
+  - '&ewww.d&6o&emain.com'
+  - '&ewww.do&6m&eain.com'
+  - '&ewww.dom&6a&ein.com'
+  - '&ewww.doma&6i&en.com'
+  - '&ewww.domai&6n&e.com'
+  - '&ewww.domain&6.&ecom'
+  - '&ewww.domain.&6c&eom'
+  - '&ewww.domain.c&6o&em'
+  - '&ewww.domain.co&6m'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+vote:
+  change-interval: 1000
+  texts:
+  - '&avote.domain.com'
+  - '&a&nvote.domain.com'
+  - '&5vote.domain.com'
+  - '&5&nvote.domain.com'
+Welcome:
+  change-interval: 400
+  texts:
+
+  - '&7&nk  '
+  - '&7&nk o '
+  - '&7&nk on '
+  - '&7&nk ond '
+  - '&7&nk onda '
+  - '&7&nk onda '
+  - '&7&nk onda '
+  - '&7&nk onda '
+  - '&7&nk ond '
+  - '&7&nk on '
+  - '&7&nk o '
+  - '&7&nk  '
+
+time:
+  change-interval: 900
+  texts:
+  - '&7Hora: &b%localtime_time%'
+  - '&7> Hora: &b%localtime_time% &7<'
+  - '&7>> Hora: &b%localtime_time% &7<<'
+  - '&7>>> Hora: &b%localtime_time% &7<<<'
+  - '&7Fecha: &b%date%'
+  - '&7> Fecha: &b%date% &7<'
+  - '&7>> Fecha: &b%date% &7<<'
+  - '&7>>> Fecha: &b%date% &7<<<'
+ping:
+  change-interval: 5000
+  texts:
+  - '&aPing: &2&n%ping%&r &ams'
+admin_prefix:
+  change-interval: 1000
+  texts:
+  - '&6&lAdmin &e'
+  - '&6&lAdmin &e'
+  - '&9&lAdmin &e'
+  - '&9&lAdmin &e'
+  - '&4&lAdmin &e'
+  - '&4&lAdmin &e'
+  - '&3&lAdmin &e'
+  - '&3&lAdmin &e'
+  - '&2&lAdmin &e'
+  - '&2&lAdmin &e'
+  - '&d&lAdmin &e'
+  - '&d&lAdmin &e'
+  - '&f&lAdmin &e'
+  - '&f&lAdmi &e'
+  - '&f&lAdm &e'
+  - '&f&lAd &e'
+  - '&f&lA &e'
+  - '&f&lAd &e'
+  - '&f&lAdm &e'
+  - '&f&lAdmi &e'
+  - '&f&lAdmin &e'
+barcolors:
+  change-interval: 1000
+  texts:
+  - RED
+  - BLUE
+  - GREEN
+  - YELLOW

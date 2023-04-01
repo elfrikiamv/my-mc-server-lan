@@ -1,0 +1,6 @@
+name: amv
+permissions:
+- '*'
+prefixes:
+- "&f[AMV&f] ":
+    priority: 1

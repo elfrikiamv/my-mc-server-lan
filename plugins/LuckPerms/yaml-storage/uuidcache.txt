@@ -1,0 +1,7 @@
+# LuckPerms UUID lookup cache
+8b50d264-b35a-3932-9cdc-22f8981f6687:friko
+e81baccb-4fa7-3627-9c04-0494a1ea1cb8:GatitoMataPerros
+ac7ecbb4-1ae0-36de-b10e-2196d66d20a5:ElFrikiAmv
+9cec4a42-b592-30a6-914d-8496722650c3:iColapso_
+934327d3-51df-31c6-a244-3167475ccb9d:camilada0
+4a277598-309e-35d8-96c9-437b3e0332c7:_Amaraa_
